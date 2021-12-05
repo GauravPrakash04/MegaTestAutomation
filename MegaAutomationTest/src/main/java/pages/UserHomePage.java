@@ -1,6 +1,5 @@
 package pages;
 
-import static org.junit.Assert.assertEquals;
 
 
 import org.openqa.selenium.By;
@@ -53,7 +52,7 @@ public class UserHomePage extends BaseDriver {
 		driver.findElement(uploadButton).click();
 		System.out.println("upload button clicked");
 		Thread.sleep(2000);
-		driver.findElement(fileUpload).sendKeys("C:\\a.txt");
+		driver.findElement(fileUpload).sendKeys("C:\\Gaurav\\a.txt");
 		//wait.until(ExpectedConditions.visibilityOfElementLocated(taskStatus));
 		Thread.sleep(10000);
 		System.out.println("File Uploaded successfully");

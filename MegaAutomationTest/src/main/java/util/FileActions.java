@@ -9,7 +9,7 @@ public class FileActions {
 	public void createFile() {
 		
 		try {
-			File myFile= new File("C:\\a.txt");
+			File myFile= new File("C:\\Gaurav\\a.txt");
 				if(myFile.createNewFile()) {
 					System.out.println("File created successfully"+ myFile.getName());
 				}
@@ -28,7 +28,7 @@ public class FileActions {
 	public void writeFile() {
 		
 		try {
-			FileWriter writeFile = new FileWriter("C:\\a.txt");
+			FileWriter writeFile = new FileWriter("C:\\Gaurav\\a.txt");
 				writeFile.write("megatesting");
 				writeFile.close();
 				System.out.println("File content successfully written");

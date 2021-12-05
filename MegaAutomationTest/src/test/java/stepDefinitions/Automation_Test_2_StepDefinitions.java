@@ -17,7 +17,7 @@ public class Automation_Test_2_StepDefinitions {
 		BaseDriver.getDriver().get("https://www.mega.nz");
 		System.out.println("----Mega app is launched----");
 		Thread.sleep(10000);
-		megaLandingPage.acceptAllCookies();
+		//megaLandingPage.acceptAllCookies();
 		System.out.println("----Cookies Accepted----");
 		Thread.sleep(8000);
 		syncDesktopApp.navigateToSyncPage();

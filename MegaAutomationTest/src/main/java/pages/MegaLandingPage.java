@@ -13,7 +13,7 @@ public class MegaLandingPage extends BaseDriver {
 	WebDriverWait wait = new WebDriverWait(driver, 15);
 	
 	private By acceptAllCookies = By.xpath("//span[text()=\"Accept All Cookies\"]");
-	private By loginButtonOnLandingPage = By.xpath("//button[@class=\"mega-button branded-red create-account-button\"]/following-sibling::button/span[text()='Login']");
+	private By loginButtonOnLandingPage = By.xpath("//button[@class=\"mega-button branded-red create-account-button\"]/following-sibling::button/span[text()='Log in']");
 	
 	//public MegaLandingPage(WebDriver driver) {
 	//	this.driver = driver;
